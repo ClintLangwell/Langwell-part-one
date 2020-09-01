@@ -11,6 +11,7 @@
 
 .col-2 {
     margin-top: 75px;
+    width: 100%;
 }
 
 .navbar a {
@@ -75,42 +76,51 @@ a:hover {
     .col-1 {
         display: flex;
         flex-direction: row;
-        align-items: baseline;
         justify-content: space-between;
+        align-items: baseline;
+        margin-bottom: 100px;
         
-    }
-
-    
+    }    
 
     ul li  {
         display: inline-flex;
-        
-        
-        
+        margin: 1px; 
     }
 
     .btn {
         width: auto;
+        margin: 5px;
+    }       
 
+    .flex-container {
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        /* padding-top: 100px; */
+    }
+
+    .col-2 {        
         
+        width: 50%;
+    }   
+
+    h1 {
+        flex-grow: 1;
     }
 
     
-
-    /* .col-2 {
+    .col-3 {
+        display: inline-flex;
+        float: left;
         width: 50%;
-        flex-direction: row;
-    }
-
-    img{
-        width: 25%;
         
     }
-    .col-3 {
-        display: flex;
-        flex-direction: row;
-        width: 50%;
-        background-color: yellow;
-    } */
 
+    img {
+        width: 100%;
+    }
+
+    #header {
+        margin-bottom: ;
+    }
 }
