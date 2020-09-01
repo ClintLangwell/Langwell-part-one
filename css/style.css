@@ -30,10 +30,6 @@
     width: 100%;
 }
 
-button:hover {
-    background-color: #ff5c0f;
-}
-
 /* id styling starts here */
 
 #header {
@@ -71,20 +67,25 @@ a:hover {
     color: #ff5c0f;
 }
 
+button:hover {
+    background-color: #ff5c0f;
+}
+
 /* Media query for desktop display starts here  */
 @media screen and (min-width: 768px) {
+/* class styling starts here */    
     .col-1 {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: baseline;
         margin-bottom: 100px;
-        
     }    
 
-    ul li  {
+    .col-3 {
         display: inline-flex;
-        margin: 1px; 
+        float: left;
+        width: 50%;    
     }
 
     .btn {
@@ -96,31 +97,23 @@ a:hover {
         flex-direction: row;
         align-items: center;
         width: 100%;
-        /* padding-top: 100px; */
     }
 
-    .col-2 {        
-        
+    .col-2 {     
         width: 50%;
     }   
 
+/* element styling starts here */    
     h1 {
         flex-grow: 1;
-    }
-
-    
-    .col-3 {
-        display: inline-flex;
-        float: left;
-        width: 50%;
-        
     }
 
     img {
         width: 100%;
     }
 
-    #header {
-        margin-bottom: ;
+    ul li  {
+        display: inline-flex;
+        margin: 1px; 
     }
 }
